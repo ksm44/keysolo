@@ -56,6 +56,7 @@ class Game {
 
     this.renderWord(word);
     
+
     document.querySelector('.timer')?.remove();
 
     const N = word.length;
